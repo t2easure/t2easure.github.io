@@ -64,7 +64,7 @@ author_profile: true
 
 ---
 
-## 👥 Extracurricular Activities
+## Extracurricular Activities
 * **정보대학 제8대 CANVAS 학생회 문화기획국원** (2024)
   * 단과대학 차원의 다양한 문화 행사 및 프로그램을 주도적으로 기획·운영하며, 다채로운 배경을 가진 구성원들과의 매끄러운 소통 및 협업 프로세스 경험.
 * **컴퓨터학과 제1대 미르 학생회 집행위원장** (2025)
