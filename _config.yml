@@ -13,9 +13,9 @@ title            : "Seo Yeonji / Portfolio"
 title_separator  : "-"
 name             : &name "Seo Yeonji" 
 description      : &description "AI Agent & Vision Researcher | CS Student at Korea Univ." # <- 짧은 소개로 변경
-url              : "https://YeonjiSeo.github.io" 
+url              : "https://t2easure.github.io" 
 baseurl          : "" 
-repository       : "YeonjiSeo/t2easure.github.io"
+repository       : "t2easure/t2easure.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
