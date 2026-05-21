@@ -1,56 +1,71 @@
 ---
+layout: single
+title: "About Me"
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+안녕하세요! **고려대학교 컴퓨터학과**에 재학 중인 서연지입니다. 
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+저는 단순한 API 활용을 넘어, 인공지능 모델의 근본적인 원리와 알고리즘을 깊이 탐구하는 연구를 지향합니다. 대규모 언어 모델(LLM)을 활용해 프로토타입을 빠르게 기획하고 구현하는 실행력을 갖추었으며, 이 과정에서 마주한 멀티 에이전트 시스템의 논리적 추론 한계와 할루시네이션 문제를 근본적으로 해결하고자 연구원의 길을 준비하고 있습니다. 
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+어려운 수식이나 원인을 알 수 없는 병목현상을 마주하더라도 끝까지 파고드는 끈기를 가지고 있으며, 탄탄한 전공 지식과 프로그래밍 스킬을 바탕으로 신뢰할 수 있는 차세대 Agentic AI 아키텍처를 구축하는 데 기여하고 싶습니다.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+---
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## 🔬 Research Interests
+* **Agentic AI & Multi-Agent Systems:** 다중 에이전트 협력 메커니즘, 스스로 피드백을 통해 추론 경로를 최적화하는 고도화 아키텍처 연구
+* **LLM Reliability & Evaluation:** 복잡한 에이전트 시스템 아키텍처 단위의 신뢰성 검증, 안전한 파이프라인 및 평가 방법론 설계
+* **Vision-Language & Multimodal Learning:**산업 데이터(RGB, 초분광 이미지 등) 융합 및 Grad-CAM 기반의 설명 가능한 AI(XAI)
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+---
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## 🎓 Education
+* **고려대학교 (Korea University)** | 컴퓨터학과 학사 과정 (3학년 재학)
+  * **GPA:** 4.39 / 4.5
+  * **Language:** TOEIC 960 (영어 학술 논문 리딩 및 기술 소통 가능)
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+---
 
-**Markdown generator**
+## 🏆 Honors & Awards
+* **대상** | 고려대학교 제3회 정보대학 해커톤/데이터톤 InThon 데이터톤 부문 (2025)
+* **최우수상** | 고려대학교 2025학년도 2학기 개별연구 및 캡스톤디자인 경진대회 (2025)
+  * 과제명: MLOps를 이용한 분광 데이터 육류 품질 예측 모델 개발
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+---
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## 💻 Key Projects & Experience
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+### **DeepPlant 산학협력 프로젝트** | MLOps를 이용한 분광 데이터 육류 품질 예측 모델 개발
+ (2025.5 - 2025.12)
+* **Role:** 비전 딥러닝 모델 설계, 데이터 파이프라인 통합 및 XAI 적용
+* **Tech Stack:** PyTorch, CNN (MSCNN), Grad-CAM, Hyperspectral Imaging, MLOps
+* **Description:**
+  * RGB 이미지와 초분광(Hyperspectral) 데이터를 채널 차원에서 결합한 육류 품질 예측 멀티모달 딥러닝 파이프라인 설계.
+  * 데이터 부족 한계를 극복하기 위해 최신 논문 분석을 바탕으로 맞춤형 CNN 아키텍처를 재설계하고 하이퍼파라미터 튜닝 진행.
+  * **Grad-CAM** 기법을 모델에 통합하여 판단 근거를 시각적으로 제시하는 **설명 가능한 AI(XAI)** 구조를 확보함으로써 모델 신뢰성 향상 시도.
+  * 🏆 *관련 성과: 개별연구 및 캡스톤디자인 경진대회 최우수상 수상*
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+### **Fresh-Link** | AI 에이전트 기반 B2B 식품 유통 플랫폼
+* **Role:** 시스템 아키텍처 설계 및 다중 에이전트 워크플로우 기획
+* **Tech Stack:** Python, FastAPI, Next.js, LangGraph
+* **Description:**
+  * B2B 식자재 유통 도메인에서 다중 에이전트를 효율적으로 배치하여 수요 예측 및 물류 프로세스를 자동화하는 시스템 레벨 아키텍처 기획.
+  * 이론적 구조를 실제 서비스 워크플로우(FastAPI 백엔드 - Next.js 프론트엔드)로 연동하는 과정에서 발생하는 병목현상과 LLM API 할루시네이션 제어 알고리즘 고민.
+  * 🏆 *관련 성과: 제3회 정보대학 해커톤/데이터톤 InThon 대상 수상*
+
+### **패션 트렌드 분석 Agentic AI 서비스** | 데이터 중심 멀티 에이전트 플랫폼
+* **Role:** 멀티 에이전트 구조 설계, 데이터 수집 파이프라인 및 시맨틱 검색 엔진 구현
+* **Tech Stack:** Python, LangChain, LangGraph, Vector Embedding, PlayWright
+* **Description:**
+  * 20대 여성 SPA 브랜드 및 인플루언서 데이터를 자율적으로 수집·분석하는 자율 에이전트 파이프라인 구축.
+  * 데이터 수집, 이미지 캡셔닝, 트렌드 분석, 리포트 생성 등 복잡한 전체 태스크를 역할별로 분리하여 상호작용하는 **Multi-Agent 시스템** 설계.
+  * 캡셔닝 결과를 벡터 임베딩하여 시맨틱 검색 엔진을 구축함으로써, 자연어 쿼리에 최적화된 최신 트렌드 리포트 자동 작성 기능 구현.
+
+---
+
+## 👥 Extracurricular Activities
+* **정보대학 제8대 CANVAS 학생회 문화기획국원** (2024)
+  * 단과대학 차원의 다양한 문화 행사 및 프로그램을 주도적으로 기획·운영하며, 다채로운 배경을 가진 구성원들과의 매끄러운 소통 및 협업 프로세스 경험.
+* **컴퓨터학과 제1대 미르 학생회 집행위원장** (2025)
+  * 조직을 주도적으로 운영하고 예기치 못한 행사 일정 및 소통 문제를 긴밀하게 해결하며, 협업 능력과 전반적인 리더십 및 리스크 관리 역량 함양.
