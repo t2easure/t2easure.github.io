@@ -47,6 +47,7 @@ author_profile: true
   * *관련 성과: 개별연구 및 캡스톤디자인 경진대회 최우수상 수상*
 
 ### **Fresh-Link** | AI 에이전트 기반 B2B 식품 유통 플랫폼
+ (2026.3 - 2026.5)
 * **Role:** 시스템 아키텍처 설계 및 다중 에이전트 워크플로우 기획
 * **Tech Stack:** Python, FastAPI, Next.js, LangGraph
 * **Description:**
@@ -54,6 +55,7 @@ author_profile: true
   * 이론적 구조를 실제 서비스 워크플로우(FastAPI 백엔드 - Next.js 프론트엔드)로 연동하는 과정에서 발생하는 병목현상과 LLM API 할루시네이션 제어 알고리즘 고민.
 
 ### **패션 트렌드 분석 Agentic AI 서비스 CRAI** | 데이터 중심 멀티 에이전트 플랫폼
+ (2026.3 - 2026.6)
 * **Role:** 멀티 에이전트 구조 설계, 데이터 수집 파이프라인 및 시맨틱 검색 엔진 구현
 * **Tech Stack:** Python, LangChain, LangGraph, Vector Embedding, PlayWright
 * **Description:**
@@ -63,7 +65,7 @@ author_profile: true
   * 관련 멘토링을 NC AI로부터 받고 있는 프로젝트
  
 ### **Language & Intelligence Lab** | 학부 연구생
-(2026.06 -)
+(2026.6 -)
 * **Role:** LILAB 학부 연구생으로서 참여
 * **Description:**
   * 관심 연구 분야 : Multimodal learning & AI Agent
