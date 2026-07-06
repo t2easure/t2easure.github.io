@@ -16,7 +16,7 @@ author_profile: true
 ## Research Interests
 * **Agentic AI & Multi-Agent Systems:** 다중 에이전트 협력 메커니즘, 스스로 피드백을 통해 추론 경로를 최적화하는 고도화 아키텍처 연구
 * **LLM Reliability & Evaluation:** 복잡한 에이전트 시스템 아키텍처 단위의 신뢰성 검증, 안전한 파이프라인 및 평가 방법론 설계
-* **Vision-Language & Multimodal Learning:**산업 데이터(RGB, 초분광 이미지 등) 융합 및 Grad-CAM 기반의 설명 가능한 AI(XAI)
+* **Vision-Language & Multimodal Learning:** 산업 데이터(RGB, 초분광 이미지 등) 융합 및 Grad-CAM 기반의 설명 가능한 AI(XAI)
 
 ---
 
@@ -62,7 +62,8 @@ author_profile: true
   * 캡셔닝 결과를 벡터 임베딩하여 시맨틱 검색 엔진을 구축함으로써, 자연어 쿼리에 최적화된 최신 트렌드 리포트 자동 작성 기능 구현.
   * 관련 멘토링을 NC AI로부터 받고 있는 프로젝트
  
-### **Language & Intelligence Lab** | 학부 연구생 (2026.06 -)
+### **Language & Intelligence Lab** | 학부 연구생
+(2026.06 -)
 * **Role:** LILAB 학부 연구생으로서 참여
 * **Description:**
   * 관심 연구 분야 : Multimodal learning & AI Agent
